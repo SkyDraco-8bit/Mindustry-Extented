@@ -1,6 +1,6 @@
-name: ""
-displayName: ""
-author: ""
-description: ""
-version: 0.0
-minGameVersion: 104
+name: "MindustryExtented"
+displayName: "Mindustry Extented"
+author: "SkyDraco"
+description: "A mod for mindustry"
+version: 1.0
+minGameVersion: 126

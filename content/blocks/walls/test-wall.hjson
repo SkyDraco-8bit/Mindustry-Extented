@@ -4,7 +4,7 @@ type: Wall
 health: 980
 size: 1
 requirements: [
-  coppper/1
+  copper/1
   lead/4
 ]
 category: defense

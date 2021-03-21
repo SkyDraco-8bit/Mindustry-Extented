@@ -4,3 +4,4 @@ author: "SkyDraco"
 description: "A mod for mindustry"
 version: 1.0
 minGameVersion: 126
+hidden : false

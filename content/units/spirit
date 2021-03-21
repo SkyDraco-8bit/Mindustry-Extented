@@ -1,0 +1,26 @@
+name: Spirit
+speed: 0.9
+flying: true
+health: 600
+range: 100
+engineOffset: 3
+engineSize: 2
+rotateSpeed: 10
+targetAir: true
+research: poly
+weapons:[
+{
+rotate = true;
+name: parallax-weapon
+  x: 0
+  y: -3
+  shootY: 6
+  reload: 20
+  ejectEffect: none
+  recoil: 1
+  shootSound: tractorbeam
+  rotate: true
+  mirror: false
+ 
+}
+]

@@ -10,7 +10,6 @@ targetAir: true
 research: poly
 weapons:[
 {
-rotate = true;
 name: parallax-weapon
   x: 0
   y: -3
@@ -21,6 +20,5 @@ name: parallax-weapon
   shootSound: tractorbeam
   rotate: true
   mirror: false
- 
 }
 ]

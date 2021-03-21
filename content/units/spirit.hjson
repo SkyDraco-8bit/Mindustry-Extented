@@ -20,5 +20,17 @@ name: parallax-weapon
   shootSound: tractorbeam
   rotate: true
   mirror: false
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.5
+    length: 75
+    damage: 40
+    shootEffect: shootSmall
+    hitColor: D6FF33
+    color: FFE70F
+    despawnEffect: none
+    width: 0.7
+    lifetime: 20
+    knockback: 1.24
 }
 ]

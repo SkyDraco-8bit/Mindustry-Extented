@@ -12,7 +12,7 @@ import mindustry.graphics.*;
 import mindustry.type.*;
 import mindustry.world.meta.*;
 
-@override
+@Override
 Blocks.multiplicativeReconstructor.upgrades.add(
     Seq.with(
        Vars.content.getByName(ContentType.unit, "mindustry-poly"),

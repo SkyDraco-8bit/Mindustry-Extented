@@ -1,0 +1,10 @@
+name: Triolet
+speed: 1.0
+flying: true
+health: 600
+range: 100
+engineOffset: 3
+engineSize: 2
+rotateSpeed: 10
+targetAir: true
+research: Squid

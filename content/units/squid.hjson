@@ -1,0 +1,10 @@
+name: Squid
+speed: 1.5
+flying: true
+health: 70
+range: 60
+engineOffset: 3
+engineSize: 1
+rotateSpeed: 30
+targetAir: true
+research: mono

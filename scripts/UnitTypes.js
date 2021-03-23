@@ -1,3 +1,6 @@
+
+package mindustry.content;
+
 content.clear()
 
 package mindustry.content;

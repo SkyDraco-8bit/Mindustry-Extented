@@ -36,6 +36,9 @@ public class UnitTypes implements ContentList{
     //legs
     public static @EntityDef(value = {Unitc.class, Legsc.class}, legacy = true) UnitType spiroct, arkyid, toxopid;
 
+    //worms
+    public static @EntityDef(value = {Unitc.class, Wormc.class}, legacy = true) UnitType sandworm, testworm;
+
     //air
     public static @EntityDef({Unitc.class}) UnitType flare, eclipse, horizon, zenith, antumbra;
 

@@ -1,7 +1,7 @@
 
 package mindustry.content;
 
-content.clear()
+content.clear(mindustry.content.UnitTypes)
 
 package mindustry.content;
 

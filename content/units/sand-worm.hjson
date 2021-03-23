@@ -1,0 +1,5 @@
+type : testworm
+name : sandworm
+description : the template worm to make tests on the new worm unit type
+speed : 1
+health : 200

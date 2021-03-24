@@ -1,23 +1,80 @@
 
-package mindustry.content;
-
-import arc.graphics.*;
-import arc.struct.*;
-import mindustry.ai.types.*;
-import mindustry.annotations.Annotations.*;
-import mindustry.ctype.*;
-import mindustry.entities.abilities.*;
-import mindustry.entities.bullet.*;
-import mindustry.gen.*;
-import mindustry.graphics.*;
-import mindustry.type.*;
-import mindustry.world.meta.*;
-
-import static mindustry.Vars.*;
+importPackage(Packages.arc)
+importPackage(Packages.arc.func)
+importPackage(Packages.arc.graphics)
+importPackage(Packages.arc.graphics.g2d)
+importPackage(Packages.arc.graphics.gl)
+importPackage(Packages.arc.math)
+importPackage(Packages.arc.math.geom)
+importPackage(Packages.arc.scene)
+importPackage(Packages.arc.scene.actions)
+importPackage(Packages.arc.scene.event)
+importPackage(Packages.arc.scene.style)
+importPackage(Packages.arc.scene.ui)
+importPackage(Packages.arc.scene.ui.layout)
+importPackage(Packages.arc.scene.utils)
+importPackage(Packages.arc.struct)
+importPackage(Packages.arc.util)
+importPackage(Packages.mindustry)
+importPackage(Packages.mindustry.ai)
+importPackage(Packages.mindustry.ai.formations)
+importPackage(Packages.mindustry.ai.formations.patterns)
+importPackage(Packages.mindustry.ai.types)
+importPackage(Packages.mindustry.async)
+importPackage(Packages.mindustry.audio)
+importPackage(Packages.mindustry.content)
+importPackage(Packages.mindustry.core)
+importPackage(Packages.mindustry.ctype)
+importPackage(Packages.mindustry.editor)
+importPackage(Packages.mindustry.entities)
+importPackage(Packages.mindustry.entities.abilities)
+importPackage(Packages.mindustry.entities.bullet)
+importPackage(Packages.mindustry.entities.comp)
+importPackage(Packages.mindustry.entities.effect)
+importPackage(Packages.mindustry.entities.units)
+importPackage(Packages.mindustry.game)
+importPackage(Packages.mindustry.gen)
+importPackage(Packages.mindustry.graphics)
+importPackage(Packages.mindustry.graphics.g3d)
+importPackage(Packages.mindustry.input)
+importPackage(Packages.mindustry.io)
+importPackage(Packages.mindustry.logic)
+importPackage(Packages.mindustry.maps)
+importPackage(Packages.mindustry.maps.filters)
+importPackage(Packages.mindustry.maps.generators)
+importPackage(Packages.mindustry.maps.planet)
+importPackage(Packages.mindustry.net)
+importPackage(Packages.mindustry.type)
+importPackage(Packages.mindustry.type.weather)
+importPackage(Packages.mindustry.ui)
+importPackage(Packages.mindustry.ui.dialogs)
+importPackage(Packages.mindustry.ui.fragments)
+importPackage(Packages.mindustry.ui.layout)
+importPackage(Packages.mindustry.world)
+importPackage(Packages.mindustry.world.blocks)
+importPackage(Packages.mindustry.world.blocks.campaign)
+importPackage(Packages.mindustry.world.blocks.defense)
+importPackage(Packages.mindustry.world.blocks.defense.turrets)
+importPackage(Packages.mindustry.world.blocks.distribution)
+importPackage(Packages.mindustry.world.blocks.environment)
+importPackage(Packages.mindustry.world.blocks.experimental)
+importPackage(Packages.mindustry.world.blocks.legacy)
+importPackage(Packages.mindustry.world.blocks.liquid)
+importPackage(Packages.mindustry.world.blocks.logic)
+importPackage(Packages.mindustry.world.blocks.payloads)
+importPackage(Packages.mindustry.world.blocks.power)
+importPackage(Packages.mindustry.world.blocks.production)
+importPackage(Packages.mindustry.world.blocks.sandbox)
+importPackage(Packages.mindustry.world.blocks.storage)
+importPackage(Packages.mindustry.world.blocks.units)
+importPackage(Packages.mindustry.world.consumers)
+importPackage(Packages.mindustry.world.draw)
+importPackage(Packages.mindustry.world.meta)
+importPackage(Packages.mindustry.world.meta.values)
+importPackage(Packages.mindustry.world.modules)
 
 Groups.unit.each( u => u.remove())
 
-@Replace
 public class UnitTypes implements ContentList{
     //region definitions
 

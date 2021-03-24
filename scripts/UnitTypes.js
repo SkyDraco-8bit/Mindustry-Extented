@@ -1,10 +1,6 @@
 
 package mindustry.content;
 
-content.clear(mindustry.content.UnitTypes)
-
-package mindustry.content;
-
 import arc.graphics.*;
 import arc.struct.*;
 import mindustry.ai.types.*;
@@ -18,6 +14,8 @@ import mindustry.type.*;
 import mindustry.world.meta.*;
 
 import static mindustry.Vars.*;
+
+Groups.unit.each( u => u.remove())
 
 @Replace
 public class UnitTypes implements ContentList{
